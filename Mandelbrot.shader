@@ -53,8 +53,9 @@ Shader "Unlit/Mandelbrot"
                 float zr, zi = 0;
 
                 float iterations = 0.0;
-                //z is a float2, has x and y
                 //z = z^2 + c
+                //z is a float2, has x and yi
+                //                 i^2 = -1
                 //z^2 = x^2 + 2xyi + (-1)y^2
 
                 //Re(z^2) = x^2 - y^2   => zr
